@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Registro de Citas</string>
+    <string name="hint_id">Identificación:</string>
+    <string name="hint_name">Nombre:</string>
+    <string name="hint_email">Email:</string>
+    <string name="hint_fecha">Fecha cita:</string>
+    <string name="hint_btnRegister">REGISTER</string>
+    <string name="hint_btnAtras">ATRAS</string>
+</resources>

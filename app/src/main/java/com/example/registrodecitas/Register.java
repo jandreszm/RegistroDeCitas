@@ -41,9 +41,9 @@ public class Register extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 CitaController cita = new CitaController(Register.this);
-                long id = cita.insertCita(identificacion.getText().toString(), name.getText().toString(), email.getText().toString(), appointmentDate.getText().toString());
+                boolean insert = cita.insertCita(identificacion.getText().toString(), name.getText().toString(), email.getText().toString(), appointmentDate.getText().toString());
 
-                if (id > 0) {
+                if (insert == true) {
                     Toast.makeText(Register.this, "REGISTRO GUARDADO", Toast.LENGTH_SHORT).show();
                     clear();
                 } else {
